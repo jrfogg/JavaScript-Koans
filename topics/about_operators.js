@@ -7,7 +7,7 @@ test("addition", function() {
   for (var i = 0; i <= 5; i++) {
     result = result + i;
   }
-  equal(__, result, "What is the value of result?");
+  equal(15, result, "What is the value of result?");
 });
 
 test("assignment addition", function() {
